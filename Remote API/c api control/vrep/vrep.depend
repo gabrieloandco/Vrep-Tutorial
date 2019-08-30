@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1561647664 source:/home/bonny/vrep/c api control/vrep/extApi.c
+	"extApi.h"
+	"extApiInternal.h"
+	<stdio.h>
+	"extApiJava.h"
+
+1561647664 /home/bonny/vrep/c api control/vrep/extApi.h
+	"extApiPlatform.h"
+	"v_repConst.h"
+
+1561647664 /home/bonny/vrep/c api control/vrep/extApiPlatform.h
+	<stdint.h>
+
+1561647664 /home/bonny/vrep/c api control/vrep/v_repConst.h
+
+1566482488 /home/bonny/vrep/c api control/vrep/extApiInternal.h
+	"extApiPlatform.h"
+
+1561647664 source:/home/bonny/vrep/c api control/vrep/extApiPlatform.c
+	"extApiPlatform.h"
+	<stdio.h>
+	"shared_memory.h"
+	<Windows.h>
+	<process.h>
+	<pthread.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<sys/mman.h>
+	<sys/time.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netdb.h>
+
+1561647664 /home/bonny/vrep/c api control/vrep/shared_memory.h
+	<stddef.h>
+	<stdbool.h>
+
+1566482887 source:/home/bonny/vrep/c api control/vrep/main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"extApi.h"
+	"extApiPlatform.h"
+
